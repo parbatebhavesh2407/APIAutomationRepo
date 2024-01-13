@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"3881e5f0-6947-42b0-9dcb-25385f9227b2",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>com.api.automation.ignore.getRequestToTestIgnore</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-01-12 05:17:56 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>To get all the data from application in JSON format</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:12]"><span>[2:12]</span> <span>To get all the data from application in JSON format using path variable</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:204]"><span>[4:204]</span> <span>To get all the data from application in XML format using path variable</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:389]"><span>[5:389]</span> <span>To get specific data from application</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/api/automation/ignore/getRequestToTestIgnore.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To test the GET endpoint of the application</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">To get all the data from application in JSON format</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>73</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:17:54.104 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;-------This is Background Keyword-------&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:17:54.108 [print] -------This is Background Keyword------- 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com/api/v1/employees&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get # send the get request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">69</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">17:17:54.112 request:
+1 &gt; GET https://dummy.restapiexample.com/api/v1/employees
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:17:54.178 response time in milliseconds: 55
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=2592000
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Jan 2024 11:47:54 UTC
+1 &lt; Display: staticcontent_sol, orig_site_sol
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.21.6
+1 &lt; Vary: Accept-Encoding,User-Agent,Origin
+1 &lt; X-Endurance-Cache-Level: 2
+1 &lt; X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;b1402895-60a9-43a7-77c2-829f1bc2194d
+1 &lt; X-Middleton-Display: staticcontent_sol, orig_site_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Nginx-Cache: WordPress
+1 &lt; X-Origin-Cache-Control: no-cache, private
+1 &lt; X-Ratelimit-Limit: 60
+1 &lt; X-Ratelimit-Remaining: 58
+1 &lt; X-Server-Cache: false
+1 &lt; X-Sol: orig
+1 &lt; Transfer-Encoding: chunked
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200 # status code of response is 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:12]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:12]</span>
+                <span class="scenario-name">To get all the data from application in JSON format using path variable</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>127</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:12]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:12]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:17:54.173 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:12]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;-------This is Background Keyword-------&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:17:54.178 [print] -------This is Background Keyword------- 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given url &#39;https://dummy.restapiexample.com&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/v1/employees&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get # send the get request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">124</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">17:17:54.182 request:
+1 &gt; GET https://dummy.restapiexample.com/api/v1/employees
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:17:54.301 response time in milliseconds: 87
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=2592000
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Jan 2024 11:47:54 UTC
+1 &lt; Display: staticcontent_sol, orig_site_sol
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.21.6
+1 &lt; Vary: Accept-Encoding,User-Agent,Origin
+1 &lt; X-Endurance-Cache-Level: 2
+1 &lt; X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;b1402895-60a9-43a7-77c2-829f1bc2194d
+1 &lt; X-Middleton-Display: staticcontent_sol, orig_site_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Nginx-Cache: WordPress
+1 &lt; X-Origin-Cache-Control: no-cache, private
+1 &lt; X-Ratelimit-Limit: 60
+1 &lt; X-Ratelimit-Remaining: 58
+1 &lt; X-Server-Cache: false
+1 &lt; X-Sol: orig
+1 &lt; Transfer-Encoding: chunked
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200 # status code of response is 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:204]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:204]</span>
+                <span class="scenario-name">To get all the data from application in XML format using path variable</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>146</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:204]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:204]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:17:54.185 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:204]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;-------This is Background Keyword-------&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:17:54.188 [print] -------This is Background Keyword------- 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given url &#39;https://dummy.restapiexample.com&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.206">
+      <div class="step-ref passed">206</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/v1/employees&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.207">
+      <div class="step-ref passed">207</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/xml&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.208">
+      <div class="step-ref passed">208</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get # send the get request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">139</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.208">17:17:54.191 request:
+1 &gt; GET https://dummy.restapiexample.com/api/v1/employees
+1 &gt; Accept: application/xml
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:17:54.328 response time in milliseconds: 125
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=2592000
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Jan 2024 11:47:54 UTC
+1 &lt; Display: staticcontent_sol, orig_site_sol
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.21.6
+1 &lt; Vary: Accept-Encoding,User-Agent,Origin
+1 &lt; X-Endurance-Cache-Level: 2
+1 &lt; X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;b1402895-60a9-43a7-77c2-829f1bc2194d
+1 &lt; X-Middleton-Display: staticcontent_sol, orig_site_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Nginx-Cache: WordPress
+1 &lt; X-Origin-Cache-Control: no-cache, private
+1 &lt; X-Ratelimit-Limit: 60
+1 &lt; X-Ratelimit-Remaining: 58
+1 &lt; X-Server-Cache: false
+1 &lt; X-Sol: orig
+1 &lt; Transfer-Encoding: chunked
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.209">
+      <div class="step-ref passed">209</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200 # status code of response is 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.210">
+      <div class="step-ref passed">210</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.210">17:17:54.330 [print] {
+  &quot;status&quot;: &quot;success&quot;,
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+      &quot;employee_salary&quot;: 320800,
+      &quot;employee_age&quot;: 61,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+      &quot;employee_salary&quot;: 170750,
+      &quot;employee_age&quot;: 63,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 3,
+      &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+      &quot;employee_salary&quot;: 86000,
+      &quot;employee_age&quot;: 66,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 4,
+      &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+      &quot;employee_salary&quot;: 433060,
+      &quot;employee_age&quot;: 22,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 5,
+      &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+      &quot;employee_salary&quot;: 162700,
+      &quot;employee_age&quot;: 33,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 6,
+      &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+      &quot;employee_salary&quot;: 372000,
+      &quot;employee_age&quot;: 61,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 7,
+      &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+      &quot;employee_salary&quot;: 137500,
+      &quot;employee_age&quot;: 59,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 8,
+      &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+      &quot;employee_salary&quot;: 327900,
+      &quot;employee_age&quot;: 55,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 9,
+      &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+      &quot;employee_salary&quot;: 205500,
+      &quot;employee_age&quot;: 39,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 10,
+      &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+      &quot;employee_salary&quot;: 103600,
+      &quot;employee_age&quot;: 23,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 11,
+      &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+      &quot;employee_salary&quot;: 90560,
+      &quot;employee_age&quot;: 30,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 12,
+      &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+      &quot;employee_salary&quot;: 342000,
+      &quot;employee_age&quot;: 22,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 13,
+      &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+      &quot;employee_salary&quot;: 470600,
+      &quot;employee_age&quot;: 36,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 14,
+      &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+      &quot;employee_salary&quot;: 313500,
+      &quot;employee_age&quot;: 43,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 15,
+      &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+      &quot;employee_salary&quot;: 385750,
+      &quot;employee_age&quot;: 19,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 16,
+      &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+      &quot;employee_salary&quot;: 198500,
+      &quot;employee_age&quot;: 66,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 17,
+      &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+      &quot;employee_salary&quot;: 725000,
+      &quot;employee_age&quot;: 64,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 18,
+      &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+      &quot;employee_salary&quot;: 237500,
+      &quot;employee_age&quot;: 59,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 19,
+      &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+      &quot;employee_salary&quot;: 132000,
+      &quot;employee_age&quot;: 41,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 20,
+      &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+      &quot;employee_salary&quot;: 217500,
+      &quot;employee_age&quot;: 35,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 21,
+      &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+      &quot;employee_salary&quot;: 345000,
+      &quot;employee_age&quot;: 30,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 22,
+      &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+      &quot;employee_salary&quot;: 675000,
+      &quot;employee_age&quot;: 40,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 23,
+      &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+      &quot;employee_salary&quot;: 106450,
+      &quot;employee_age&quot;: 21,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 24,
+      &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+      &quot;employee_salary&quot;: 85600,
+      &quot;employee_age&quot;: 23,
+      &quot;profile_image&quot;: &quot;&quot;
+    }
+  ],
+  &quot;message&quot;: &quot;Successfully! All records has been fetched.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.211">
+      <div class="step-ref failed">211</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response !=</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.211">{
+&quot;status&quot;: &quot;success&quot;,
+&quot;data&quot;: [
+  {
+    &quot;id&quot;: 1,
+    &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+    &quot;employee_salary&quot;: 320800,
+    &quot;employee_age&quot;: 61,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+    &quot;employee_salary&quot;: 170750,
+    &quot;employee_age&quot;: 63,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+    &quot;employee_salary&quot;: 86000,
+    &quot;employee_age&quot;: 66,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+    &quot;employee_salary&quot;: 433060,
+    &quot;employee_age&quot;: 22,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+    &quot;employee_salary&quot;: 162700,
+    &quot;employee_age&quot;: 33,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+    &quot;employee_salary&quot;: 372000,
+    &quot;employee_age&quot;: 61,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+    &quot;employee_salary&quot;: 137500,
+    &quot;employee_age&quot;: 59,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+    &quot;employee_salary&quot;: 327900,
+    &quot;employee_age&quot;: 55,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+    &quot;employee_salary&quot;: 205500,
+    &quot;employee_age&quot;: 39,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+    &quot;employee_salary&quot;: 103600,
+    &quot;employee_age&quot;: 23,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 11,
+    &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+    &quot;employee_salary&quot;: 90560,
+    &quot;employee_age&quot;: 30,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 12,
+    &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+    &quot;employee_salary&quot;: 342000,
+    &quot;employee_age&quot;: 22,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 13,
+    &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+    &quot;employee_salary&quot;: 470600,
+    &quot;employee_age&quot;: 36,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 14,
+    &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+    &quot;employee_salary&quot;: 313500,
+    &quot;employee_age&quot;: 43,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 15,
+    &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+    &quot;employee_salary&quot;: 385750,
+    &quot;employee_age&quot;: 19,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 16,
+    &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+    &quot;employee_salary&quot;: 198500,
+    &quot;employee_age&quot;: 66,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 17,
+    &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+    &quot;employee_salary&quot;: 725000,
+    &quot;employee_age&quot;: 64,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 18,
+    &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+    &quot;employee_salary&quot;: 237500,
+    &quot;employee_age&quot;: 59,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 19,
+    &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+    &quot;employee_salary&quot;: 132000,
+    &quot;employee_age&quot;: 41,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 20,
+    &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+    &quot;employee_salary&quot;: 217500,
+    &quot;employee_age&quot;: 35,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 21,
+    &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+    &quot;employee_salary&quot;: 345000,
+    &quot;employee_age&quot;: 30,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 22,
+    &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+    &quot;employee_salary&quot;: 675000,
+    &quot;employee_age&quot;: 40,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 23,
+    &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+    &quot;employee_salary&quot;: 106450,
+    &quot;employee_age&quot;: 21,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 24,
+    &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+    &quot;employee_salary&quot;: 85600,
+    &quot;employee_age&quot;: 23,
+    &quot;profile_image&quot;: &quot;&quot;
+  }
+],
+&quot;message&quot;: &quot;Successfully! All records has been fetched.&quot;
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.211">17:17:54.333 classpath:com/api/automation/ignore/getRequestToTestIgnore.feature:211
+And match response !=
+&quot;&quot;&quot;
+{
+&quot;status&quot;: &quot;success&quot;,
+&quot;data&quot;: [
+  {
+    &quot;id&quot;: 1,
+    &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+    &quot;employee_salary&quot;: 320800,
+    &quot;employee_age&quot;: 61,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+    &quot;employee_salary&quot;: 170750,
+    &quot;employee_age&quot;: 63,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+    &quot;employee_salary&quot;: 86000,
+    &quot;employee_age&quot;: 66,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+    &quot;employee_salary&quot;: 433060,
+    &quot;employee_age&quot;: 22,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+    &quot;employee_salary&quot;: 162700,
+    &quot;employee_age&quot;: 33,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+    &quot;employee_salary&quot;: 372000,
+    &quot;employee_age&quot;: 61,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+    &quot;employee_salary&quot;: 137500,
+    &quot;employee_age&quot;: 59,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+    &quot;employee_salary&quot;: 327900,
+    &quot;employee_age&quot;: 55,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+    &quot;employee_salary&quot;: 205500,
+    &quot;employee_age&quot;: 39,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+    &quot;employee_salary&quot;: 103600,
+    &quot;employee_age&quot;: 23,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 11,
+    &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+    &quot;employee_salary&quot;: 90560,
+    &quot;employee_age&quot;: 30,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 12,
+    &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+    &quot;employee_salary&quot;: 342000,
+    &quot;employee_age&quot;: 22,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 13,
+    &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+    &quot;employee_salary&quot;: 470600,
+    &quot;employee_age&quot;: 36,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 14,
+    &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+    &quot;employee_salary&quot;: 313500,
+    &quot;employee_age&quot;: 43,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 15,
+    &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+    &quot;employee_salary&quot;: 385750,
+    &quot;employee_age&quot;: 19,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 16,
+    &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+    &quot;employee_salary&quot;: 198500,
+    &quot;employee_age&quot;: 66,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 17,
+    &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+    &quot;employee_salary&quot;: 725000,
+    &quot;employee_age&quot;: 64,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 18,
+    &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+    &quot;employee_salary&quot;: 237500,
+    &quot;employee_age&quot;: 59,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 19,
+    &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+    &quot;employee_salary&quot;: 132000,
+    &quot;employee_age&quot;: 41,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 20,
+    &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+    &quot;employee_salary&quot;: 217500,
+    &quot;employee_age&quot;: 35,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 21,
+    &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+    &quot;employee_salary&quot;: 345000,
+    &quot;employee_age&quot;: 30,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 22,
+    &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+    &quot;employee_salary&quot;: 675000,
+    &quot;employee_age&quot;: 40,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 23,
+    &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+    &quot;employee_salary&quot;: 106450,
+    &quot;employee_age&quot;: 21,
+    &quot;profile_image&quot;: &quot;&quot;
+  },
+  {
+    &quot;id&quot;: 24,
+    &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+    &quot;employee_salary&quot;: 85600,
+    &quot;employee_age&quot;: 23,
+    &quot;profile_image&quot;: &quot;&quot;
+  }
+],
+&quot;message&quot;: &quot;Successfully! All records has been fetched.&quot;
+}
+&quot;&quot;&quot;
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+  {&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+
+classpath:com/api/automation/ignore/getRequestToTestIgnore.feature:211
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:389]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:389]</span>
+                <span class="scenario-name">To get specific data from application</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>97</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:389]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:389]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:17:54.302 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:389]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;-------This is Background Keyword-------&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:17:54.306 [print] -------This is Background Keyword------- 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given url &#39;https://dummy.restapiexample.com&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.391">
+      <div class="step-ref passed">391</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/v1/employees&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.392">
+      <div class="step-ref passed">392</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/xml&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.393">
+      <div class="step-ref passed">393</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get # send the get request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">82</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.393">17:17:54.312 request:
+1 &gt; GET https://dummy.restapiexample.com/api/v1/employees
+1 &gt; Accept: application/xml
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:17:54.389 response time in milliseconds: 65
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=2592000
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Jan 2024 11:47:54 UTC
+1 &lt; Display: staticcontent_sol, orig_site_sol
+1 &lt; Response: 200
+1 &lt; Server: nginx/1.21.6
+1 &lt; Vary: Accept-Encoding,User-Agent,Origin
+1 &lt; X-Endurance-Cache-Level: 2
+1 &lt; X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;b1402895-60a9-43a7-77c2-829f1bc2194d
+1 &lt; X-Middleton-Display: staticcontent_sol, orig_site_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Nginx-Cache: WordPress
+1 &lt; X-Origin-Cache-Control: no-cache, private
+1 &lt; X-Ratelimit-Limit: 60
+1 &lt; X-Ratelimit-Remaining: 58
+1 &lt; X-Server-Cache: false
+1 &lt; X-Sol: orig
+1 &lt; Transfer-Encoding: chunked
+{&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:2,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;employee_age&quot;:63,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:3,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:4,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:5,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;employee_age&quot;:33,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:6,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;employee_age&quot;:61,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:7,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:8,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;employee_age&quot;:55,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:9,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;employee_age&quot;:39,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:10,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:11,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:12,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;employee_age&quot;:22,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:13,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;employee_age&quot;:36,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:14,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;employee_age&quot;:43,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:15,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;employee_age&quot;:19,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:16,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;employee_age&quot;:66,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:17,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;employee_age&quot;:64,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:18,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;employee_age&quot;:59,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:19,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;employee_age&quot;:41,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:20,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;employee_age&quot;:35,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:21,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;employee_age&quot;:30,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:22,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;employee_age&quot;:40,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:23,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;employee_age&quot;:21,&quot;profile_image&quot;:&quot;&quot;},{&quot;id&quot;:24,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;employee_age&quot;:23,&quot;profile_image&quot;:&quot;&quot;}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.394">
+      <div class="step-ref passed">394</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200 # status code of response is 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.395">
+      <div class="step-ref passed">395</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.395">17:17:54.397 [print] {
+  &quot;status&quot;: &quot;success&quot;,
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+      &quot;employee_salary&quot;: 320800,
+      &quot;employee_age&quot;: 61,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+      &quot;employee_salary&quot;: 170750,
+      &quot;employee_age&quot;: 63,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 3,
+      &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+      &quot;employee_salary&quot;: 86000,
+      &quot;employee_age&quot;: 66,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 4,
+      &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+      &quot;employee_salary&quot;: 433060,
+      &quot;employee_age&quot;: 22,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 5,
+      &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+      &quot;employee_salary&quot;: 162700,
+      &quot;employee_age&quot;: 33,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 6,
+      &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+      &quot;employee_salary&quot;: 372000,
+      &quot;employee_age&quot;: 61,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 7,
+      &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+      &quot;employee_salary&quot;: 137500,
+      &quot;employee_age&quot;: 59,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 8,
+      &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+      &quot;employee_salary&quot;: 327900,
+      &quot;employee_age&quot;: 55,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 9,
+      &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+      &quot;employee_salary&quot;: 205500,
+      &quot;employee_age&quot;: 39,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 10,
+      &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+      &quot;employee_salary&quot;: 103600,
+      &quot;employee_age&quot;: 23,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 11,
+      &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+      &quot;employee_salary&quot;: 90560,
+      &quot;employee_age&quot;: 30,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 12,
+      &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+      &quot;employee_salary&quot;: 342000,
+      &quot;employee_age&quot;: 22,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 13,
+      &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+      &quot;employee_salary&quot;: 470600,
+      &quot;employee_age&quot;: 36,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 14,
+      &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+      &quot;employee_salary&quot;: 313500,
+      &quot;employee_age&quot;: 43,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 15,
+      &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+      &quot;employee_salary&quot;: 385750,
+      &quot;employee_age&quot;: 19,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 16,
+      &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+      &quot;employee_salary&quot;: 198500,
+      &quot;employee_age&quot;: 66,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 17,
+      &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+      &quot;employee_salary&quot;: 725000,
+      &quot;employee_age&quot;: 64,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 18,
+      &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+      &quot;employee_salary&quot;: 237500,
+      &quot;employee_age&quot;: 59,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 19,
+      &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+      &quot;employee_salary&quot;: 132000,
+      &quot;employee_age&quot;: 41,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 20,
+      &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+      &quot;employee_salary&quot;: 217500,
+      &quot;employee_age&quot;: 35,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 21,
+      &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+      &quot;employee_salary&quot;: 345000,
+      &quot;employee_age&quot;: 30,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 22,
+      &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+      &quot;employee_salary&quot;: 675000,
+      &quot;employee_age&quot;: 40,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 23,
+      &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+      &quot;employee_salary&quot;: 106450,
+      &quot;employee_age&quot;: 21,
+      &quot;profile_image&quot;: &quot;&quot;
+    },
+    {
+      &quot;id&quot;: 24,
+      &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+      &quot;employee_salary&quot;: 85600,
+      &quot;employee_age&quot;: 23,
+      &quot;profile_image&quot;: &quot;&quot;
+    }
+  ],
+  &quot;message&quot;: &quot;Successfully! All records has been fetched.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.396">
+      <div class="step-ref passed">396</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains deep {&quot;data&quot;:[{&quot;employee_name&quot;: &quot;Caesar Vance&quot;}]}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.397">
+      <div class="step-ref passed">397</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match header Content-Type == &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
